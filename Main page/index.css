@@ -32,6 +32,26 @@ body {
   color:white;
   text-decoration: none;
 }
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  bottom: 23px;
+  left: 4px;
+  background-color: #e93e05;
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar a:hover:before,
+.navbar li:hover>a:before,
+.navbar .active:before {
+  visibility: visible;
+  width: 80%;
+  left: 4px;
+}
 .navbar{
 min-height: 70px;
 display: flex;
@@ -129,7 +149,10 @@ padding: 0 48px !important;
   font-size: 10vw;
   margin: 0;
 }
-
+.carousel-inner > .item {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  }
 .carousel-caption{
   margin-bottom: 10%;
 }
