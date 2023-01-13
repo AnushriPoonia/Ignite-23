@@ -15,7 +15,7 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body 
+/* body 
 {
     display: flex;
     justify-content: center;
@@ -23,17 +23,19 @@ body
     flex-wrap: wrap;
     min-height: 100vh;
     /* background: #000000; */
-}
-/* .container{
+/* } */ 
+ .container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content:  center;
+    /* flex-wrap: wrap; */
 }
 .row{
     display: flex;
     flex-direction: row;
-} */
+    justify-content: center;
+    flex-wrap: wrap;
+} 
 .name{
     font-family: customfont;
     color: white;
@@ -54,6 +56,7 @@ body
 {
     height: 400px;
 }
+
 .box .imgBx 
 {
     position: absolute;
