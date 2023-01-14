@@ -155,3 +155,13 @@ body{
     display: flex;
     justify-content: space-between;
  }
+ .heading{
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: customfont;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px;
+ }
