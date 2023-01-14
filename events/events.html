@@ -4,17 +4,39 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Events</title>
+        <!-- favicon -->
         <link rel="icon" type="image/x-icon" href="pictures/favicon.png">
-
+        <!-- css file -->
         <link rel="stylesheet" href="events.css">
+        <script src="https://kit.fontawesome.com/de33fbad5c.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav class="nav-section">
+      
+            <div class="navbar">
+            <div><img class="logo" src="pictures/logo.png"></div>
+    
+              <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">SignUp</a></li>
+              </ul>
+            </div>
+          
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
         <h1 class="heading">EVENTS</h1>
         <div class="container">
             <div class="row">
                 <div class="box" onclick="football()">
                     <div class="imgBx">
-                        <img src="https://raw.githubusercontent.com/Samaelish/Responsive-Cards-UI-Design/main/img1.jpg" alt="">
+                        <img src="https://raw.githubusercontent.com/Samaelish/Responsive-Cards-UI-Design/main/img1.jpg" alt="" onclick="football()">
                     </div>
                 <h1 class="name">HOCKEY</h1>
 
@@ -110,6 +132,21 @@
             </div>
 
         </div>
+        <footer id="footer">
+            <div class="container">
+              <h3>IGNITE</h3>
+              <p>The sports fest of Indira gandhi delhi Technical University For Women</p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <div class="copyright">
+                &copy; Copyright <strong><span>Synergy</span></strong>.All Rights Reserved
+              </div>
+            </div>
+        </footer>
         
     <script src="events.js"></script>
 
