@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schedule</title>    
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap" rel="stylesheet">
 
     <!-- css -->
     <link rel="stylesheet" href="sch.css">
@@ -39,180 +40,69 @@
       <span class="bar"></span>
     </div>
   </nav>
-  <section id="schedule" class="section-with-bg">
-        <div class="sch-container wow fadeInUp">
-          <div class="section-header">
-            <h2>Event Schedule</h2>
-          </div>
-  
-          <ul class="nav-tabs" role="tablist">
-            <li class="nav-item">
-              <button onclick="showDay1()">Day1</button>
-            </li>
-            <li class="nav-item">
-              <button onclick="showDay2()">Day2</button>
-            </li>
-          </ul>
-          <div class="tab-content row justify-content-center">
-  
-            <!-- Schdule Day 1 -->
-            <div role="tabpanel" class=" col-lg-9 tab-pane" id="day1-schedule">
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>09:30 AM</time></div></div>
-                <div class="col-md-10 content">
-                  <h4>REGISTRATION</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>10:00 AM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Brenden Legros">
-                  </div>
-                  <h4>OPENING CEREMONY</h4>
-                  <p>Details about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>11:00 AM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Hubert Hirthe">
-                  </div>
-                  <h4>MARCH-PAST</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>12:00 AM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Cole Emmerich">
-                  </div>
-                  <h4>CULTURAL EVENTS</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>02:00 PM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Jack Christiansen">
-                  </div>
-                  <h4>BASKETBALL</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>03:00 PM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Alejandrin Littel">
-                  </div>
-                  <h4>BADMINTON</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>04:00 PM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Willow Trantow">
-                  </div>
-                  <h4>VOLLEYBALL</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-            </div>
-            <!-- End Schdule Day 1 -->
-  
-            <!-- Schdule Day 2 -->
-            <div role="tabpanel" class="col-lg-9 tab-pane hide" id="day2-schedule">
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>10:00 AM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Brenden Legros">
-                  </div>
-                  <h4>TABLE TENNIS</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>11:00 AM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Hubert Hirthe">
-                  </div>
-                  <h4>ATHLETICS</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>12:00 AM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Cole Emmerich">
-                  </div>
-                  <h4>BASKETBALL</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>02:00 PM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Jack Christiansen">
-                  </div>
-                  <h4>BADMINTON</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>03:00 PM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Alejandrin Littel">
-                  </div>
-                  <h4>SHOT-PUT</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-              <div class="row schedule-item">
-                <div class="col-md-2"><div class="time"><time>04:00 PM</time></div></div>
-                <div class="col-md-10 content">
-                  <div class="speaker">
-                    <img src="https://synergyigdtuw.com/img/Gallery/1.JPG" alt="Willow Trantow">
-                  </div>
-                  <h4>CLOSING CEREMONY</h4>
-                  <p>Detail about this event</p>
-                </div>
-              </div>
-  
-            </div>
-            <!-- End Schdule Day 2 -->
-  
-          
-          </div>
-  
+<!-- MAHIMA SCHEDULE -->
+<link rel="stylesheet" href="sch.css"> 
+
+<div class="schedule">
+    <div class="schedule-heading">
+      EVENT SCHEDULE
+    </div>
+    <!-- <h3 class=""></h3> -->
+    <div class="buttons">
+      <button onclick="showDay1()"class="day-buttons">Day1</button>
+      <button onclick="showDay2() " class="day-buttons">Day2</button>
+    </div>
+    <div class="content">
+      <div id="day1-schedule">
+        <div class="event">
+          <div class="time">4:00PM</div>
+          <h4 class="event-name">Basketball</h4>
         </div>
-  
-      </section>
+        <hr>
+        <div class="event">
+          <div class="time">4:00PM</div>
+          <h4 class="event-name">Basketball</h4>
+
+        </div>
+        <hr>
+
+        <div class="event">
+          <div class="time">4:00PM</div>
+          <h4 class="event-name">Basketball</h4>
+        </div>
+        <hr>
+
+        <div class="event">
+          <div class="time">3:00PM</div>
+          <h4 class="event-name">Basketball</h4>
+        </div>
+      </div>
+      <div id="day2-schedule" class=" hide">
+      <div class="event">
+        <div class="time">3:00PM</div>
+        <h4 class="event-name">Basketball</h4>
+      </div>
+      <hr>
+      <div class="event">
+        <div class="time">3:00PM</div>
+        <h4 class="event-name">Basketball</h4>
+
+      </div>
+      <hr>
+
+      <div class="event">
+        <div class="time">3:00PM</div>
+        <h4 class="event-name">Basketball</h4>
+      </div>
+      <hr>
+
+      <div class="event">
+        <div class="time">4:00PM</div>
+        <h4 class="event-name">Basketball</h4>
+      </div>
+    </div>
+  </div>
+  </div>
       <footer id="footer">
         <div class="footer-container">
           <h3>IGNITE</h3>
