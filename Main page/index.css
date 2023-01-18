@@ -20,6 +20,12 @@ body {
   top:0;
   z-index: 100;
   background-color:#0f0f0f;
+  background: rgba(17, 17, 17, 0.42);
+ border-radius:8px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.4px);
+-webkit-backdrop-filter: blur(7.4px);
+border: 1px solid rgba(17, 17, 17, 0.13);
 }
 .logo{
   width:80px;
@@ -91,12 +97,19 @@ padding: 0 48px !important;
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color:#0f0f0f;
+    border-radius:8px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.4px);
+-webkit-backdrop-filter: blur(7.4px);
+border: 1px solid rgba(17, 17, 17, 0.13);
   }
   .navbar a:hover
 {
   color:#FC9918;
   
+}
+.navbar {
+  padding: 10px !important;
 }
   .logo{
     width:70px;
