@@ -46,7 +46,7 @@ border: 1px solid rgba(17, 17, 17, 0.13);
 .navbar a:hover
 {
   color:#e82020;
-  
+  text-decoration: none;
 }
 .navbar{
 min-height: 70px;
